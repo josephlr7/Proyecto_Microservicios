@@ -1,0 +1,14 @@
+server:
+  port: 8096
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_products?useSSL=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+    username: root
+    password: tu_password
+  jpa:
+    hibernate:
+      ddl-auto: update
+cloudinary:
+  cloud-name: glcgv7uc
+  api-key: 182271186211353
+  api-secret: VJVSqo0g6ASTZz2uIQap-S4hAxU
